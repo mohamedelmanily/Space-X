@@ -35,7 +35,7 @@ const ServiceData = [
 
 const Hero = () => {
   return (
-    <div className='relative bg-black h-full grid md:grid-cols-3 grid-cols-1 gap-5 container'>
+    <div className='relative bg-black h-full grid md:grid-cols-3 grid-cols-1 gap-5 container px-4'>
       {ServiceData.map((card) => (
         <HeroCard
           key={card.id}

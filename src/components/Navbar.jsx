@@ -3,7 +3,7 @@ import logo from "../assets/logo-2zKhl-C6.png";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center w-full fixed top-0 right-0 text-white container py-4 max-sm:px-4 backdrop-blur-sm bg-white bg-opacity-5 z-10">
+    <div data-aos='fade-down' className="flex justify-between items-center w-full fixed top-0 right-0 text-white container py-4 max-sm:px-4 backdrop-blur-sm bg-white bg-opacity-5 z-10">
       <div className="flex items-center gap-2">
         <img className="w-10 sm:w-12 md:w-12 lg:w-12" src={logo} alt="logo" />
         <h1 className="text-2xl font-bold">Space-X</h1>
